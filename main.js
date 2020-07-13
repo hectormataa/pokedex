@@ -5,7 +5,7 @@
 
 
 
-    var imageneslista = [];
+    var imageneslista =[];
 
     var noPokemons = 809
 
