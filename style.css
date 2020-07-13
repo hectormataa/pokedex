@@ -1,0 +1,24 @@
+nav{
+    position: fixed;
+    background-color: #E43131;
+    
+}
+
+.poke{
+    color: yellow;
+}
+
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+  }
+  
+  /* This changes all the animations globaly */
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+
+  img:hover{
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+  }
